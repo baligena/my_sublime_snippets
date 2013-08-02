@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+CREATE TABLE IF NOT EXISTS `${1:table_name}` (
+  `${2:id}` int(11) NOT NULL auto_increment,
+  `file` varchar(250) NOT NULL,
+  `timestamp` timestamp NOT NULL default CURRENT_TIMESTAMP,
+  PRIMARY KEY  (`${2:id}`),
+  UNIQUE KEY `${2:id}` (`${2:id}`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3762 ;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>create</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

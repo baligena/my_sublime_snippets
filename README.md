@@ -1,2 +1,2 @@
-my_sublime_snippets
+My Sublime Snippets
 ===================
