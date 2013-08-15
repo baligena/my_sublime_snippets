@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:<?php} echo \$AI->get_dynamic_area(${2:string}); ${3:?>}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>aidynamic</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.html</scope> -->
+</snippet>
