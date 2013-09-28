@@ -1,9 +1,10 @@
 <snippet>
 	<content><![CDATA[
-die('<br>Die() on line: ' . __LINE__ . '<br />FILE: ' . __FILE__);
+INSERT INTO ${1:table_name} (${2:column1,column2,column3,...}) VALUES 
+(${3:value1,value2,value3,...})
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>die</tabTrigger>
+	<tabTrigger>insert</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
