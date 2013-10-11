@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<div class="first_line">
+<span class="first_line">
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>firstline</tabTrigger>
