@@ -1,8 +1,7 @@
 {
-    // Controls what scopes auto complete will be triggered in
-    "auto_complete_selector": "source, text",
+	"auto_complete_selector": "source, text",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
-	"font_size": 8,
+	"font_size": 8.0,
 	"ignored_packages":
 	[
 		"Vintage"
