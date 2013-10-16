@@ -1,10 +1,13 @@
 <snippet>
 	<content><![CDATA[
-\$query = db_query("${1}");
-if(db_error())die('<br>Database Error: '.db_error().' on line: ' . __LINE__ . '<br />FILE: ' . __FILE__);
+/**
+ * written by felipe
+ * date: ${1}
+ * task: ${2}
+ */
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>aidb_query</tabTrigger>
+	<tabTrigger>written</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
