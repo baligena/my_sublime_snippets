@@ -1,2 +1,4 @@
 [
+	{ "keys": ["ctrl+shift+k"], "command": "new window"} 
+
 ]
