@@ -1,10 +1,10 @@
 {
-	"word_wrap": false,
 	"auto_complete_selector": "source, text",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
 	"font_size": 8.0,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"word_wrap": false
 }

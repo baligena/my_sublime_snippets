@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-db_query("${1}");
-if(db_error())die('<br>Database Error: '.db_error().' on line: ' . __LINE__ . '<br />FILE: ' . __FILE__);
+db_query(\$sql);
+if(db_error())die('<br><b>DATABASE ERROR:</b> '.db_error().'<br><b>QUERY</b>: '.\$sql.'<br><b>LINE:</b> ' . __LINE__ . '<br /><b>FILE:</b> ' . __FILE__);
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>aidb_query</tabTrigger>

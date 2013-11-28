@@ -1,9 +1,15 @@
 <snippet>
 	<content><![CDATA[
-<span class="first_line">
+\$result = db_query("SELECT ${1:fields} FROM ${2:table}");
+while(\$row = db_fetch_array(\$result))
+{
+	${3:echo "<pre>";
+	print_r(\$row);
+	echo "</pre>";}
+}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>firstline</tabTrigger>
+	<tabTrigger>aidb_query_select</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
