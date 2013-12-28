@@ -4,7 +4,8 @@
 	"font_size": 8.0,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"AdvancedNewFile"
 	],
 	"word_wrap": false
 }
