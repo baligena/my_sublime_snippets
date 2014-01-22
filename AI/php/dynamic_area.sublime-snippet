@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-${1:<?php} echo \$AI->get_dynamic_area(${2:string}); ${3:?>}
+${1:<?php} echo \$AI->get_dynamic_area(${3:string}); ${2:?>}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>aidynamic</tabTrigger>
