@@ -1,9 +1,25 @@
 <snippet>
 	<content><![CDATA[
-die('<br>Die() on line: ' . __LINE__ . '<br />FILE: ' . __FILE__);
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<style>
+    #main { 
+	    width: 900px; 
+        margin: 0 auto; 
+    }
+</style>
+</head>
+<body>
+    <div id="main">
+    	${1:}
+    </div>
+</body>
+</html>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>die</tabTrigger>
+	<tabTrigger>html_center</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
