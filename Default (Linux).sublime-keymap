@@ -1,2 +1,5 @@
 [
+	{ "keys": ["ctrl+u"], "command": "soft_undo" },
+	{ "keys": ["alt+\\"], "command": "goto_definition" },
+	{ "keys": ["ctrl+shift+k"], "command": "new window"}
 ]
